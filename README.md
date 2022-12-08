@@ -18,6 +18,8 @@ Step 2. Add the dependency
 		implementation 'com.github.m7devoo:Material:1.0'
 	}
 
+
+
 * How to use:
 
 	@Composable
@@ -39,4 +41,7 @@ Step 2. Add the dependency
 		)
 	}
 
+
+
+* Preview:
 ![Preview](/images/bottom-navigation.PNG)
