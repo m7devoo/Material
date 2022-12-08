@@ -36,8 +36,7 @@ How to use:
 			background = Color.Black,
 			iconTint = Color.Gray,
 			defaultSelected = 4
-			)
+		)
 	}
 	
-	![Preview](images/bottom-navigation.png)
-
+![Preview](images/bottom-navigation.png)
