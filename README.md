@@ -46,3 +46,7 @@ Step 2. Add the dependency
 * Preview:
 
 ![Preview](/images/bottom-navigation.PNG)
+
+
+
+* By: m7devoo ♥
