@@ -39,4 +39,4 @@ How to use:
 		)
 	}
 	
-![Preview](images/bottom-navigation.png)
+![Preview](/images/bottom-navigation.png)
