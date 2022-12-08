@@ -1,10 +1,9 @@
-# Material
+# Material (BottomNavigation)
 
-How to get a Git project into your build:
-
-Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories:
-
+& How to get a Git project into your build:
+   Step 1. Add the JitPack repository to your build file
+   Add it in your root build.gradle at the end of repositories:
+        
 	allprojects {
 		repositories {
 			...
@@ -12,16 +11,16 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}
   
-Step 2. Add the dependency
+   Step 2. Add the dependency
 
 	dependencies {
 		implementation 'com.github.m7devoo:Material:1.0'
 	}
-
-How to use:
+	
+& How to use:
 
 	@Composable
-	fun DefaultPreview() {
+	fun TestPreview() {
 		BottomNavigation(
 			modifier = Modifier
 			    .padding(4.dp),
@@ -36,5 +35,12 @@ How to use:
 			background = Color.Black,
 			iconTint = Color.Gray,
 			defaultSelected = 4
-    	)
+		)
 	}
+
+& Preview:
+
+   ![Preview](/images/bottom-navigation.PNG)
+
+
+& By:   m7devoo ♥
