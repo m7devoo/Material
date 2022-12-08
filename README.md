@@ -15,30 +15,26 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.m7devoo:Material:1.0'
+		implementation 'com.github.m7devoo:Material:1.0'
 	}
 
 How to use:
-
-	dependencies {
-	        implementation 'com.github.m7devoo:Material:Tag'
-	}
 
 	@Composable
 	fun DefaultPreview() {
 		BottomNavigation(
 			modifier = Modifier
-			    	.padding(4.dp),
+			    .padding(4.dp),
 			painters = arrayListOf(
-				    rememberVectorPainter(image = Icons.Rounded.Home),
-				    rememberVectorPainter(image = Icons.Rounded.AccountCircle),
-				    rememberVectorPainter(image = Icons.Rounded.Info),
-				    rememberVectorPainter(image = Icons.Rounded.Edit),
-				    rememberVectorPainter(image = Icons.Rounded.Settings),
+			    rememberVectorPainter(image = Icons.Rounded.Home),
+			    rememberVectorPainter(image = Icons.Rounded.AccountCircle),
+			    rememberVectorPainter(image = Icons.Rounded.Info),
+			    rememberVectorPainter(image = Icons.Rounded.Edit),
+				rememberVectorPainter(image = Icons.Rounded.Settings),
 			),
 			radius = 20f,
 			background = Color.Black,
 			iconTint = Color.Gray,
 			defaultSelected = 4
-    		)
+    	)
 	}
