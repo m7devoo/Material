@@ -1,6 +1,6 @@
-# Material
+# Material (BottomNavigation)
 
-How to get a Git project into your build:
+* How to get a Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
@@ -18,7 +18,7 @@ Step 2. Add the dependency
 		implementation 'com.github.m7devoo:Material:1.0'
 	}
 
-How to use:
+* How to use:
 
 	@Composable
 	fun DefaultPreview() {
@@ -38,5 +38,5 @@ How to use:
 			defaultSelected = 4
 		)
 	}
-	
+
 ![Preview](/images/bottom-navigation.PNG)
