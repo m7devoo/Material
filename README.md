@@ -40,9 +40,9 @@
 
 & Preview:
 
-   ![Preview](/images/bottom-navigation.PNG)
+   ![Preview1](/images/bottom-navigation.PNG)
    
-   ![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+   ![Preview](https://github.com/m7devoo/Material/blob/master/images/bottom-navigation.gif)
 
 
 
