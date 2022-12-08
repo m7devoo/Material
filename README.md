@@ -18,26 +18,27 @@ Step 2. Add the dependency
 	        implementation 'com.github.m7devoo:Material:1.0'
 	}
 
-* How to use:
+How to use:
+
 	dependencies {
-	        implementation 'com.github.m7devoo:Material:1.0'
+	        implementation 'com.github.m7devoo:Material:Tag'
 	}
 
 	@Composable
-	fun Test() {
+	fun DefaultPreview() {
 		BottomNavigation(
-			    modifier = Modifier
-				.padding(4.dp),
-			    painters = arrayListOf(
-					rememberVectorPainter(image = Icons.Rounded.Home),
-					rememberVectorPainter(image = Icons.Rounded.AccountCircle),
-					rememberVectorPainter(image = Icons.Rounded.Info),
-					rememberVectorPainter(image = Icons.Rounded.Edit),
-					rememberVectorPainter(image = Icons.Rounded.Settings)
-			    ),
-			    radius = 20f,
-			    background = Color.Black,
-			    iconTint = Color.Gray,
-			    defaultSelected = 4
-		)
+			modifier = Modifier
+			    	.padding(4.dp),
+			painters = arrayListOf(
+				    rememberVectorPainter(image = Icons.Rounded.Home),
+				    rememberVectorPainter(image = Icons.Rounded.AccountCircle),
+				    rememberVectorPainter(image = Icons.Rounded.Info),
+				    rememberVectorPainter(image = Icons.Rounded.Edit),
+				    rememberVectorPainter(image = Icons.Rounded.Settings),
+			),
+			radius = 20f,
+			background = Color.Black,
+			iconTint = Color.Gray,
+			defaultSelected = 4
+    		)
 	}
