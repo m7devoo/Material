@@ -39,10 +39,8 @@
 	}
 
 & Preview:
-
-   ![Preview1](/images/bottom-navigation.PNG)
    
-   ![Preview](https://github.com/m7devoo/Material/blob/master/images/bottom-navigation.gif)
+   ![Preview](/images/bottom-navigation.gif)
 
 
 
