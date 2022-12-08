@@ -19,6 +19,9 @@ Step 2. Add the dependency
 	}
 
 * How to use:
+	dependencies {
+	        implementation 'com.github.m7devoo:Material:1.0'
+	}
 
 	@Composable
 	fun Test() {
