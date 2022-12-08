@@ -20,7 +20,7 @@
 & How to use:
 
 	@Composable
-	fun DefaultPreview() {
+	fun TestPreview() {
 		BottomNavigation(
 			modifier = Modifier
 			    .padding(4.dp),
